@@ -17,7 +17,7 @@ This recursion can be solved, and is leaf dominated. This can be simplified to $
 - **3)**
 $W(n) = W(n-1) + 1$
 
-This can be solved as $O(n)$
+This can be solved as $O(n)$ 
 
 - **4)**
 Due to the fact that n-1 iterates as well as n-2, the counts list shows us that many values in the fibonacci sequence are calculated twice, once from the W(n-1) branch and once from W(n-2)
