@@ -23,7 +23,7 @@ This can be solved as $O(n)$
 Due to the fact that n-1 iterates as well as n-2, the counts list shows us that many values in the fibonacci sequence are calculated twice, once from the W(n-1) branch and once from W(n-2)
 
 - **6)**
-In the new algorithm, each fib_town_down(i) in the fibonacci sequence is called once, as the list of fibs[n] keeps the previous used top down values. 
+In the new algorithm, each fib_town_down(i) in the fibonacci sequence is called once as the list of fibs[n] keeps the previous used top down values, and potentially referenced again when its same fib[n] value is found.
 With that, our Work is different, and can be reduced to W(n) as O(n). Span is the same, S(n) as O(n)
 
 - **8)**
